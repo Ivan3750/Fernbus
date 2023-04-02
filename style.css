@@ -1,0 +1,148 @@
+*{
+    font-family: 'Comfortaa', cursive; /* #F69D25 */
+}
+body{
+    margin: 0;
+    background-image: url(./Image/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header__box {
+    width: auto;
+    height: 80px;
+    background-color: #A2E53F;
+    text-align: right;
+}
+.header__list {
+    width: auto;
+    display: inline-block;
+    text-align: right;
+    margin-top: 25px; 
+    color: #FFF ;
+}
+.header__text {
+    margin-right: 80px;
+}
+.logo{
+    width: auto;
+    height: 20px;
+    margin-right: 100px;
+    margin-right: 800px;
+}
+
+main{
+
+    height: 1500px;
+    width: auto;
+}
+
+
+.main__box {
+    width: 1100px;
+    height: 650px;
+    margin: 0px auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 2px solid #A2E53F;
+    box-shadow: 2px 2px 15px #A2E53F;
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+.main__box:hover{
+    box-shadow: 2px 2px 25px #A2E53F;
+
+}
+/* *{
+    border: 1px solid #f00;
+}
+div main{
+    border: 1px solid #f00;
+} */
+.main__image{
+    border-radius: 20px;
+    height: 500px;
+    width: auto;
+    box-shadow: 2px 2px 20px #A2E53F;
+    color: #fff;
+}
+.main__image:hover{
+    box-shadow: 2px 2px 25px #A2E53F;
+    color: #fff;
+
+
+}
+.main__element{
+    display: inline-block;
+    height: 500px;
+    width: auto;
+    margin: 75px;
+    color: #fff;
+}
+.main__element:nth-child(1){
+    margin: 75px;
+}
+.main__element:nth-child(2){
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+}
+p,h1{
+    margin-bottom: 120px;
+    color: #fff;
+}
+ul,li{
+    display: inline-block;
+}
+.second__main{
+    display: inline-block;
+    color: #fff;
+}
+.second__main__box{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin: 0px auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 2px solid #A2E53F;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-image-slice: 20px;
+    box-shadow: 2px 2px 15px #A2E53F;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    margin-left: 120px;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+}
+.second__main__box:hover{
+    box-shadow: 2px 2px 2px #A2E53F;
+}
+.Country_image{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 20px #7f7f7f;
+}
+button{
+    background: #A2E53F;
+    border-radius: 20px;
+    border: 0;
+    margin: 30px;
+    width: auto;
+    height: 30px;
+    box-shadow: 2px 2px 15px #A2E53F;
+    color: #fff;
+}
+button:hover{
+    height: 30px;
+    cursor: pointer;
+    color: #f69d25;
+    
+}
+button:active{
+    box-shadow: 2px 2px 10px #A2E53F;
+}
+
